@@ -1,0 +1,28 @@
+{
+    "name": "fonts-to-pdf",
+    "version": "1.0.0",
+    "description": "Generates a pdf file displaying all the fonts on your system.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@pdf-lib/fontkit": "^1.1.1",
+        "@vercel/ncc": "^0.38.1",
+        "node-gyp": "^10.0.1",
+        "node-system-fonts": "^1.0.1",
+        "pdf-lib": "^1.17.1",
+        "pkg": "^5.8.1"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120,
+        "singleQuote": true,
+        "semi": true,
+        "arrowParens": "always",
+        "trailingComma": "all"
+    }
+}
