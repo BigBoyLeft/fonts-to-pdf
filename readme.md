@@ -6,24 +6,24 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/BigBoyLeft/fonts-to-pdf.git
+git clone https://github.com/BigBoyLeft/fonts-to-pdf.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd fonts-to-pdf
+cd fonts-to-pdf
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Run the application
 
 ```bash
-  npm run start
+npm run start
 ```
 
